@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+background-color: #4877fb;
+height: 100vh;
+display: flex;
+flex-direction: column;
+padding: 0 100px;
+}
+.logo {
+display: block;
+
+}
+.navigation-container {
+    background-color: #4877fb;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+top: 0;
+padding: 0 125px;
+}
+.navigation-links {
+display:flex;
+
+}
+.navigation-links a {
+display: block;
+text-decoration: none;
+margin: 0 15px;
+color: white;
+
+}
+.navigation-links a:hover {
+font-size: large;
+
+
+}
+.title-container {
+    height: 100%;
+background-color: #4877fb;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding-left: 35px;
+}
+.title-text {
+    flex-grow: 3;
+    background-color: #4877fb;
+}
+.h1 {
+font-size: 50px;
+color: white;
+padding-bottom: 10px;
+}
+.pp {
+    color: rgb(173, 157, 157);
+}
+.youtube {
+    background-color: #4877fb;
+    display: flex;
+    flex-grow: 1;
+}
+.title-link-container {
+}
+.title-link-container a {
+    color:white;
+    text-decoration: none;
+    font-size: smaller;
+    display: block;
+    margin-top: 50px;
+    width: 180px;
+    background-color: #9bb4f8;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    
+}
+.Framework {
+    display: block;
+    color: white;
+    font-size: 35px;
+}
+.card-container {
+}
+.main {
+    height: 100vh;
+    background-color: rgb(212, 198, 198);
+    display: flex;
+    padding: 100px 100px;
+    justify-content: center;
+}
+
+h2 {
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.para {
+font-size: large;
+
+
+}
+.card {
+    display: flex;
+    background-color: white;
+    height: 300px;
+width: 260px;
+margin-left: 1px;
+padding: 15px;
+flex-direction: column;
+}
+.img { height: 54px;
+    width: 54px;}
+
+.last-link {
+    margin-top: 50px;
+display: flex;
+justify-content: end;
+width: 50px;
+height: 50px;
+background-color: red;
+border-radius: 50%;
+;
+}
+.linkk {
+padding: 50px 
+
+}
+.asd {
+    color:white;
+    text-decoration: none;
+    font-size: smaller;
+    display: block;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #898e9c;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    
+
+}
+a:hover {
+opacity: 0.7;
+
+}
